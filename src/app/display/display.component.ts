@@ -7,7 +7,7 @@ import { Component, Input, Output, OnInit} from '@angular/core';
 })
 export class DisplayComponent{
 
-  @Input() time:number = null;
+  @Input() time:number | null  = null;
   constructor() { }
 
 }

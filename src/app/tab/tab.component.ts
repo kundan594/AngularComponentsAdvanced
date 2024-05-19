@@ -8,7 +8,7 @@ import { Tab } from "./tab.interface";
 })
 export class TabComponent implements OnInit, Tab {
 
-  @Input() title:string;
+  @Input() title:string='';
   public isActive:boolean = false;
 
   constructor() { }

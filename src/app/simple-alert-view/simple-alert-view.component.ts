@@ -9,8 +9,8 @@ export class SimpleAlertViewComponent implements OnInit {
 
   constructor() { }
 
-  @Input() message:string;
-  @Input() title:string;
+  @Input() message:string='';
+  @Input() title:string='';
   public visible:boolean = true;
 
   ngOnInit() {
